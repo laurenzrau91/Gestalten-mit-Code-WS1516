@@ -12,7 +12,14 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+	ofSetBackgroundColor(0, 0, 0);
 
+	int windowWidth  = ofGetWindowWidth();
+	int windowHeight = ofGetWindowHeight();
+
+	ofSetColor(255, 0, 0);
+	ofFill();
+	ofRect(0, 0, windowWidth/2, windowWidth/2);
 }
 
 //--------------------------------------------------------------
